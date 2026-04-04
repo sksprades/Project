@@ -1,5 +1,5 @@
 .custom-navbar {
-  background-color: #ffffff00;   /* Background color */
+  background-color: #ffffffa9;   /* Background color */
   transition: all 0.4s ease-in-out;
 }
 
@@ -33,6 +33,20 @@
 
 .animated-navbar.scrolled .nav-link:hover {
   color: #ff0000!important;              /* Red hover when scrolled */
+}
+
+/* === Brand Link Hover Effect === */
+
+.custom-brand:hover {
+  color: #052fa4 !important;
+  transition: color 0.3s ease;
+  text-decoration: underline; /* optional */
+}
+
+.custom-gal:hover {
+  color: #9fb6f6 !important;
+  transition: color 0.3s ease;
+  text-decoration: underline; /* optional */
 }
 
 
@@ -147,6 +161,15 @@ main {
 }
 
 /* === Hero Section === */
+
+.hero {
+  background: url('images/hero-bg.jpg') no-repeat center center/cover;
+  height: 100vh;
+  margin-top: -70px; /* pull hero up behind navbar */
+  padding-top: 70px; /* offset content so it doesn’t hide under navbar */
+}
+
+
 .hero {
   background: url("images/jilmar_image.png") no-repeat center center;
   background-size: cover;
